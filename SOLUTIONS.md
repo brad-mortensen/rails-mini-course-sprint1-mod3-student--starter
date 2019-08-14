@@ -22,3 +22,10 @@ First, start the rails server. Then, make a request to `/tasks/new`, fill out th
    - Explain which HTTP verbs pair with each action
    - Write a short sentence for each action that summarizes what it does
     index, show, new, and edit. So, create, update, and destroy
+
+### Creating Users via Rails Console
+
+- first_user = User.create
+- second_user = User.create
+- first_user.update(email: "b@gh.com", active: true)
+- second_user.update(email: "dsfb@gh.com", active: true)
