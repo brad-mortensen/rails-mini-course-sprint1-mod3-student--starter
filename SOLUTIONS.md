@@ -8,8 +8,8 @@ First, start the rails server. Then, make a request to `/tasks/new`, fill out th
 
     The browser issues a request for the /tasks URL.
     Rails routes /task to the index action in the Tasks controller.
+    The view uses embedded Ruby (.erb) to render the form page as HTML.
     The create action asks the Task model to create a new task
-    The view uses embedded Ruby (.erb) to render the page as HTML.
     The controller passes the HTML back to the browser.
 
 4. What file is responsible for managing the mapping between your application and the `tasks` database table?
@@ -21,7 +21,7 @@ First, start the rails server. Then, make a request to `/tasks/new`, fill out th
    - List each action by its name
    - Explain which HTTP verbs pair with each action
    - Write a short sentence for each action that summarizes what it does
-    index, show, new, and edit. So, create, update, and destroy
+    index, show, new, edit, create, update, and destroy
 
 ### Creating Users via Rails Console
 
